@@ -1,0 +1,93 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.main{
+    width: 346px;
+    height: 440px;
+    font-size: 16px;
+    background-image: linear-gradient(#FFFF, #d5f5ff);
+}
+p{
+    margin-top: 17px;
+    margin-left: 17px;
+  
+}
+
+.qualPeso{
+    text-align: center;
+    border-style: inset;
+    width: 89.5%;
+    padding: 5px;
+    border-radius: 15px;
+    background-image: linear-gradient(#fdfdfd, #f7f7f7);
+
+}
+
+.genderBtns{
+    margin-left: 22px;
+    display: inline-block;
+}
+.checkMark{
+    margin-top: 22px;
+    margin-left: 18px;
+    position: absolute;
+}
+.checkMark img{
+    height: 25px;
+    width: 25px;
+}
+.genderBtns button{
+    margin-top: 10px;
+    margin-left: 30px;
+    padding: 50px;
+    border-radius: 200px;
+    background-color: #EAF8FE;
+    border: 1px solid #5DCCFC;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.genderBtns button:hover{
+    cursor: pointer;
+    background-color:#d2f2ff;
+}
+.sendBtn{
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+    margin-bottom: 30px;
+    width: 190px;
+    height: 35px;
+    border-radius: 95px;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #e7e6e6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.sendBtn:hover{
+    cursor: pointer;
+    background-color: rgba(152, 255, 250, 0.741);
+}
+.input-group{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.imgpeso{
+    align-items: center;
+width: 280px;
+height: 130px;
+padding-left: 18%;
+border-radius: 25px;
+opacity: 1.0;
+}
+
+.waves{
+position: relative;
+width: 350px;
+height: 150px;
+opacity: 1.0;
+
+}
+

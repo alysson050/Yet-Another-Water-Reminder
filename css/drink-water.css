@@ -1,0 +1,204 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.main{
+    width: 346px;
+    height: 460px;
+    font-size: 16px;
+}
+.topRow{
+    width: 100%;
+    height: 10%;
+    font-size: 20px; 
+}
+.historico{
+    position: absolute;
+    margin-top: 10px;
+    margin-left:18%;
+    color: #9f9f9f;
+}
+
+.beba{
+    position: absolute;
+    margin-top: 10px;
+    margin-left:40%;
+    color:#7dd5fa;
+}
+.drinkImg{
+    margin-left: 30%;
+    position: absolute;
+    margin-top: 10px;
+    height: 28px;
+    width: 28px;
+}
+.bar2{
+    margin-left: 25%;
+    position: absolute;
+    border: solid;
+    margin-top: 40px;
+    width: 50%;
+    border-width: 1px;
+    color: #62CDFA;
+}
+
+/* Fundo azul onde os números se alocam */
+
+.blueSquare{
+    font-weight: bold;
+    border-right: solid;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 37%;
+    background-color: #9addfa;
+    height: 17%;
+    width: 29%;
+    border-radius: 15px;
+}
+
+/* Letra dentro do bloco squareNum copos */
+
+.squareNum{
+    position: absolute;
+    line-height: 125%;
+    text-align: center;
+    font-size: 72px;
+    position: relative;
+    color: #ffffff;
+}
+
+/* Letras quantidade de copos a beber */
+
+.coposP{
+    margin-left: 115%;
+    margin-top: -60%;
+    white-space: nowrap;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+/* Letras do box Calor */
+
+.verao{
+    position: absolute;
+    height: 20%;
+    width: 45%;
+    border-radius: 20px;
+    border: solid;
+    border-width: 1.5px;
+    border-color: #b3ff90;
+    background-image: linear-gradient(#ffffff, #cbfcb5);
+    margin-top: 40%;
+    margin-left: 2%;
+}
+
+/* Letras do box Frio */
+
+.inverno{
+    position: absolute;
+    height: 20%;
+    width: 45%;
+    border-radius: 20px;
+    border: solid;
+    border-width: 1.5px;
+    border-color: #85f1f5;
+    background-image: linear-gradient(#ffffff, #c0f6f8);
+    margin-top: 40%;
+    margin-left: 52%;
+}
+
+/* Letras Calor superior do box */
+
+.veraoP{
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 12px;
+    margin-left: 16px;
+    color: #67ff6e;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* Letras Frio superior do box */
+
+.invernoP{
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 12px;
+    margin-left: 16px;
+    color: #68faff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Letras dentro da box frio e calor  */
+
+.invernoCopos ,.veraoCopos{
+    font-size: 17;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Emoji do Frio e Calor */
+
+.floco, .coqueiro{
+    font-size: 23px;
+    margin-left: 71%;
+    margin-top: -30px;
+}
+
+/* Parte importante da média e de quanto faltam para atingir a meta */
+
+.drinkingInfo{
+    margin-top: 81%;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 3%;
+    
+}
+
+/* Parte importante da média e de quanto faltam para atingir a meta */
+
+.drinkingInfo p{
+    font-size: 15px;
+    margin-top: 150px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 9%;
+    border: 5px;
+    border-radius: 8px;
+    border-color: #a3e3ff;
+    border-style: groove;
+    background-image: linear-gradient(#fdfdfd, #d8f5fa);
+    height: 21px;
+    padding-left: 3%;
+}
+
+/* Botão de Recadastro */
+
+.recadastrar{
+    margin-top: 10%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 165px;
+    margin-bottom: 30px;
+    width: 170px;
+    height: 35px;
+    border-radius: 100px;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #e2e2e2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+
+/* Botão de Recadastro */
+
+.recadastrar:hover{
+    cursor: pointer;
+    background-color: rgba(152, 255, 250, 0.741);
+} 
